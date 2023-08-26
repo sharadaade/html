@@ -1,0 +1,17 @@
+The markup language is used to present information
+whereas programming language is used to give
+instructions to a computer to perform a particular task.
+Tags in HTML are not case-sensitive.
+
+Attributes contain extra information about the element
+that won't appear in the content.
+
+The attribute name, followed by an equal sign.
+An attribute value, wrapped with opening and closing quote marks.
+
+##Attribute also called as Modifiers
+First element of html document is <head/>
+
+Link tag is used for other resource related to the document
+The HTML <link> element specifies relationship between 
+the current document and external resource. 
