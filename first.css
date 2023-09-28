@@ -1,0 +1,52 @@
+/* 
+Selector in css
+1.Type selector (h1, body)
+2.ID selector (#parent)
+3.Class selector (.nano, .hero)
+4.Universal selector (*)
+*/
+:root {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+code {
+  background-color: rgb(206, 200, 190);
+  color: brown;
+}
+#para {
+  text-align: center;
+  color: tomato;
+}
+.blueviolet {
+  text-align: center;
+  /* text-align: justify; */
+  color: blueviolet;
+}
+/* * {
+  text-align: center;
+} */
+ol {
+  list-style-type: lower-alpha;
+}
+ul {
+  list-style-type: square;
+}
+#Link1:hover {
+  color: aquamarine;
+}
+#Link2:visited {
+  color: red;
+}
+#Link3:active {
+  color: chocolate;
+}
+#text1:focus {
+  color: white;
+  background-color: magenta;
+}
+#this1::first-letter {
+  background-color: magenta;
+}
+#this:first-line {
+  color: red;
+}
