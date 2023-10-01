@@ -44,9 +44,15 @@ ul {
   color: white;
   background-color: magenta;
 }
-#this1::first-letter {
+#this1:first-letter {
   background-color: magenta;
 }
 #this:first-line {
   color: red;
+}
+#bef::before {
+  content: "This is me";
+}
+#aft::after {
+  content: "End of para";
 }

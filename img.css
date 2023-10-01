@@ -1,0 +1,11 @@
+body {
+  background-color: hsl(0, 0%, 0%);
+}
+figure {
+  border: 5px solid hsl(300, 100%, 50%);
+}
+figure {
+  width: 400px;
+  height: 600px;
+  padding: 10px;
+}
